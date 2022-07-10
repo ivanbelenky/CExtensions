@@ -1,4 +1,4 @@
-# Writing C, Python/C API 
+# Writing C Extensions, Python/C API 
 
 The idea behind this repo is to start building core knowledge on how to extend Python with C or C++. So dont hesitate to be verbose on code comments or README.
 
