@@ -25,7 +25,7 @@ One file with the same name as the example you are posting.
 
 ## Resources to Start
 
-1. As a first step I would suggest <a href="https://docs.python.org/3/extending/extending.html"></a>
+1. As a first step I would suggest <a href="https://docs.python.org/3/extending/extending.html">this</a>
 2. More on Reference Counting mainly <a href="https://pythonextensionpatterns.readthedocs.io/en/latest/refcount.html">extensionpatterns</a>
 3. `numpy` <a href="https://numpy.org/doc/stable/user/c-info.html">np</a>
 
