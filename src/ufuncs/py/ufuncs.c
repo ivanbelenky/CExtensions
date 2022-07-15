@@ -6,7 +6,9 @@
 #include <math.h>
 
 #define MAXITERTOL 10
-#define MAXITER 3
+#define MAXITER 10
+#define MAXITERMOD 5
+
 
 static PyMethodDef UfuncMethods[] = {
     {NULL, NULL, 0, NULL}
@@ -27,7 +29,7 @@ static void double_sqrt_tol(char **args, const npy_intp *dimensions,
     for (i = 0; i < n; i++) {
         tmp = *(double *)in;
         while (iter <= MAXITERTOL ) {
-            if (iter%3 == 0) {
+            if (iter%MAXITERMOD == 0) {
                 if (fabs(root-last_root) < 1e-6){
                     break;
                 }
