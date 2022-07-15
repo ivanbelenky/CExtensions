@@ -13,7 +13,7 @@ I came to learn that this can be an operation done directly by the processor its
 1. sqrt(x)
 2. sqrt2(x)
 
-Both of them make use of the continuous fraction approximation. This iterative process requires different ITERATIONS values dependent on x to reach reasonable accuracy. Easy to see that 
+Both of them make use of the continuous fraction approximation. This iterative process requires different `ITERATIONS` values dependent on x to reach reasonable accuracy. Easy to see that 
 
 <p align="center">
 $$
@@ -23,7 +23,7 @@ $$
 $$
 <p>
 
-The only between the two implementations is the presence of a TOLERANCE cut condition, being  $|last - current| < TOLERANCE $. 
+The only between the two implementations is the presence of a `TOLERANCE` cut condition, being  $\color{orange}{|last - current| < TOLERANCE }$. 
 
 
 ## Tests
