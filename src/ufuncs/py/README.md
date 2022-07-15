@@ -33,8 +33,7 @@ Check for yourself, it seems that tolerance present on sqrt2 adds a reasonable a
 Whenever the operation is done for a high dimensional, or big array, `numpy` wins. But there is a sweet spot to win some femtoseconds :P.
 
 <!-- insert image in assets -->
-<img src="tests/assets/ufunc_vs_np.png" alt="sqrt2" width="80%" height="80%">
-
+![alt text](https://github.com/ivanbelenky/CExtensions/blob/main/tests/assets/ufunc_vs_np.png?raw=true)
 
 ## To try out
 
